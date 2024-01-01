@@ -1,0 +1,16 @@
+{
+    "name": "Overcast-Container:Ubuntu-20.04",
+    "dockerFile": "Dockerfile",
+  
+    // Add any additional settings or extensions for your development environment
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+  
+    "extensions": [
+      "ms-vscode.cpptools",
+      "ms-python.python"
+      // Add any other extensions you require
+    ]
+}
+  
